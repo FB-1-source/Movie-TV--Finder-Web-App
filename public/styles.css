@@ -180,7 +180,10 @@ body {
     margin-bottom: -5rem;
   }
   .mt:hover{
-    display: none;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    margin-bottom: 0rem;
   }
   .imgheight {
     height: 50%;
