@@ -7,7 +7,11 @@ const Popmov = ({ id, poster, title, date, mediatype, rating }) => {
   const noimg = "https://www.movienewz.com/img/films/poster-holder.jpg";
   return (
     <Contactbox mediatype={mediatype} id={id}>
-      <img src={poster ? `${img}/${poster}` : noimg} alt={title} />
+      <img
+        className="imgheight"
+        src={poster ? `${img}/${poster}` : noimg}
+        alt={title}
+      />
       <div className="lower">
         {title ? <b>{title}</b> : ""}
         <div className="rating">
