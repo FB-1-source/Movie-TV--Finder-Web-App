@@ -174,8 +174,13 @@ body {
   .mt {
     display: flex;
     flex-direction: column;
-    flex-basis: 40%;
+    flex-basis: 30%;
     margin-left: 1rem;
+  }
+
+  .popular {
+
+
   }
 
   .Links {
