@@ -166,6 +166,15 @@ body {
   text-align: justify;
 }
 
+@media (pointer: coarse) {
+  .mt:hover {
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+
 @media (max-width: 800px) {
   .logo h1 {
     font-size: 30px;
@@ -176,15 +185,10 @@ body {
     flex-direction: column;
     flex-basis: 40%;
     margin-left: 1rem;
-    margin-right: .5rem;
+    margin-right: 0.5rem;
     margin-bottom: -5rem;
   }
-  .mt:hover{
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
-    margin-bottom: none;
-  }
+
   .imgheight {
     height: 50%;
   }
